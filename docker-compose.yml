@@ -9,7 +9,7 @@ services:
     environment:
       SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/logdb
       SPRING_DATASOURCE_USERNAME: postgres
-      SPRING_DATASOURCE_PASSWORD: examplepassword
+      SPRING_DATASOURCE_PASSWORD: postgres@123
     depends_on:
       - db
     restart: always
@@ -27,7 +27,7 @@ services:
     environment:
       POSTGRES_DB: logdb
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: examplepassword
+      POSTGRES_PASSWORD: postgres@123
     ports:
       - "5432:5432"
     volumes:
