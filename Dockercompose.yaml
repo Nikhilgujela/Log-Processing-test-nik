@@ -2,14 +2,14 @@ version: "3.8"
 
 services:
   backend:
-    image: vivekgshan/log-processing-backend:latest
+    image: nikhilgujela/log-processing-backend:latest
     container_name: log-processing-backend
     ports:
       - "8081:8080"
     restart: always
 
   frontend:
-    image: vivekgshan/log-processing-frontend:latest
+    image: nikhilgujela/log-processing-frontend:latest
     container_name: log-processing-frontend
     ports:
       - "3001:3000"
