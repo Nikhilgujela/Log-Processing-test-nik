@@ -4,7 +4,7 @@ FROM openjdk:17-jdk-slim
 # Set the working directory inside the container
 WORKDIR /app
 
-COPY target/LogExport-0.0.1-SNAPSHOT.jar app.jar
+COPY target/logcreator-0.0.1-SNAPSHOT.jar app.jar
 
 EXPOSE 8081
 
