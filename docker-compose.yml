@@ -12,5 +12,5 @@ services:
     image: nikhilgujela/log-processing-frontend:latest
     container_name: log-processing-frontend
     ports:
-      - "3001:3000"
+      - "3001:80"
     restart: always
